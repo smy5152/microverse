@@ -1,6 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .header-section {
+  padding: 0;
+  margin: 0;
 }
 .top-bar {
+  display: flex;
+  height: 30px;
+  padding: 5px 5px;
+  border: 1px solid #cccccc;
 }
 .menu-icon {
 }
@@ -9,6 +19,7 @@
 .section-label {
 }
 .site-logo {
+  flex: 10;
 }
 .subscribe-btn {
 }
