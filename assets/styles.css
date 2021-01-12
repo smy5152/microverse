@@ -53,6 +53,20 @@ button {
   flex: 0.25;
   display: inline-flex;
 }
-.container {
+
+.articleHeader {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+.articleTitle {
+}
+.separator {
+}
+.shareToolBar {
+}
+.heroImage {
+}
+.imgCaption {
 }
