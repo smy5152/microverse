@@ -70,3 +70,10 @@ button {
 }
 .imgCaption {
 }
+.container {
+  display: flex;
+}
+.articlePara {
+  margin: 20px;
+  vertical-align: baseline;
+}
