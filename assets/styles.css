@@ -1,49 +1,57 @@
 body {
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 .header-section {
   padding: 0;
   margin: 0;
 }
 .top-bar {
+  z-index: 10;
   display: flex;
-  height: 30px;
-  padding: 5px 5px;
+  height: 26px;
+  padding: 5px;
   border: 1px solid #cccccc;
-  /* align-items: center; */
-  justify-content: center;
   flex-wrap: wrap;
-  align-self: center;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  padding: 5px;
 }
 .menu-icon {
-  flex: 1;
 }
-.menu-icon .hamburger {
-  height: 20px;
-  width: 20px;
-}
+
 .search-icon {
-  flex: 1;
 }
-.search-icon .search {
-  height: 20px;
-  width: 20px;
-}
+
 .section-label {
-  flex: 2;
+  padding: 5px;
 }
-.site-logo {
-  flex: 10;
-  justify-content: center;
-  align-self: center;
-  /* margin-left: 300px; */
+button {
+  background-color: rgb(86, 123, 149);
+  height: 26px;
+  color: white;
+  transition: all 0.6s ease 0s;
 }
 .subscribe-btn {
-  flex: 1.5;
+  padding: 2px;
 }
 .login-btn {
-  flex: 1.5;
+  padding: 2px;
+}
+.site-logo {
+  flex: 1;
+}
+.header-left {
+  flex: 1;
+  display: inline-flex;
+}
+.header-right {
+  flex: 0.25;
+  display: inline-flex;
 }
 .container {
   display: flex;
