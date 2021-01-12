@@ -1,3 +1,19 @@
-.header {
- color: red;
+.header-section {
+}
+.top-bar {
+}
+.menu-icon {
+}
+.search-icon {
+}
+.section-label {
+}
+.site-logo {
+}
+.subscribe-btn {
+}
+.login-btn {
+}
+.container {
+  display: flex;
 }
