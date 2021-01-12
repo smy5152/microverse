@@ -11,19 +11,29 @@ body {
   height: 30px;
   padding: 5px 5px;
   border: 1px solid #cccccc;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .menu-icon {
+  flex: 1;
 }
 .search-icon {
+  flex: 1;
 }
 .section-label {
+  flex: 2;
 }
 .site-logo {
   flex: 10;
+  align-self: center;
+  margin-left: 300px;
 }
 .subscribe-btn {
+  flex: 1.5;
 }
 .login-btn {
+  flex: 1.5;
 }
 .container {
   display: flex;
