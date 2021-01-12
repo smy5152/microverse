@@ -11,23 +11,33 @@ body {
   height: 30px;
   padding: 5px 5px;
   border: 1px solid #cccccc;
-  align-items: center;
-  justify-content: space-around;
+  /* align-items: center; */
+  justify-content: center;
   flex-wrap: wrap;
+  align-self: center;
 }
 .menu-icon {
   flex: 1;
 }
+.menu-icon .hamburger {
+  height: 20px;
+  width: 20px;
+}
 .search-icon {
   flex: 1;
+}
+.search-icon .search {
+  height: 20px;
+  width: 20px;
 }
 .section-label {
   flex: 2;
 }
 .site-logo {
   flex: 10;
+  justify-content: center;
   align-self: center;
-  margin-left: 300px;
+  /* margin-left: 300px; */
 }
 .subscribe-btn {
   flex: 1.5;
