@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name: Microverse Times - Article
+# Project Name: Microverse Times - Article Page
 
 ## Week 1 Collaborative Project
 
