@@ -202,11 +202,11 @@ figcaption span {
 .article-float span,
 time {
   width: 60%;
-  margin-left: 245px;
+  margin-left: 440px;
 }
 .big-band {
   width: 60%;
-  margin-left: 245px;
+  padding-left: 400px;
 }
 .big-band p {
   margin-bottom: 0.78125rem;
