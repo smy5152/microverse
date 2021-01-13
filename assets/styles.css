@@ -48,6 +48,9 @@ header {
   letter-spacing: 0.7px;
   line-height: 19px;
 }
+.section-title a {
+  color: #000;
+}
 .header-right button {
   background-color: rgb(86, 123, 149);
   border: rgb(50, 104, 145);
@@ -190,6 +193,10 @@ figcaption span {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 0.875rem;
   line-height: 1.125rem;
+}
+.css-1baulvz {
+  display: inline-block;
+  color: #000;
 }
 
 footer {
