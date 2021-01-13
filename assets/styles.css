@@ -206,3 +206,14 @@ footer {
   text-align: center;
   font-size: 11px;
 }
+footer a {
+  padding-inline-start: 20px;
+  text-decoration: none;
+  color: #333;
+}
+.credits {
+  color: #888;
+  letter-spacing: 0.01em;
+  font-size: 0.8125rem;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
