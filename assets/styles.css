@@ -55,8 +55,7 @@ header {
   float: left;
   display: block;
 }
-.login-btn .subscribe-btn {
-}
+
 .header-right {
   float: left;
   display: flex;
@@ -104,11 +103,18 @@ header {
   /* transition: all 0.5s; */
   align-items: center;
 }
+.socialIcons {
+  margin-left: 350px;
+}
 .socialIcons svg {
   background-color: #eee;
   border: 1px #eee solid;
   border-radius: 100%;
   align-self: center;
+  vertical-align: middle;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
   /* width: 15px; */
   /* height: 15px; */
   /* max-width: fit-content; */
@@ -117,7 +123,36 @@ header {
 }
 .bookmark_comment {
   display: flex;
-  max-height: 10px;
+  border-radius: 100%;
+  margin-top: 10px;
+  width: 15px;
+  height: 15px;
+}
+.bookmark_comment a i::before {
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  bottom: -7px;
+  border-width: 6px 0px 0px 8px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+  width: 0px;
+}
+.bookmark_comment a i {
+  height: 15px;
+  margin-top: 12px;
+}
+.bookmark_comment a i::after {
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 6px 0px 0px 6px;
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 16px;
+  position: absolute;
+  width: 0px;
 }
 .comment-box {
   /* -webkit-box-align: center; */
@@ -135,12 +170,26 @@ header {
   width: auto;
 }
 .hero-figure {
-  display: flex;
-  margin: 0 auto;
-  width: 70%;
+  width: 90%;
+}
+.hero-figure img {
+  width: 80%;
+  padding-left: 150px;
+  padding-right: 150px;
+  cursor: pointer;
+}
+figcaption {
+  width: 60%;
+  padding-left: 145px;
+}
+figcaption span {
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
 }
 
-/* shabbir */
 footer {
   padding-bottom: 20px;
   border-top: 1px solid #ebebeb;
