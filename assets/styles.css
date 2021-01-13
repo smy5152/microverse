@@ -219,7 +219,10 @@ footer a {
   font-size: 0.8125rem;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
-
+.big-band {
+  width: 600px;
+  margin: 0 auto;
+}
 nav {
   margin: 0 auto;
   width: 1200px;
@@ -290,4 +293,6 @@ nav {
   font-weight: 500;
   height: 23px;
   line-height: 16px;
+}
+.subscribe {
 }
