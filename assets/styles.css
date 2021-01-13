@@ -142,14 +142,11 @@ header {
 
 /* shabbir */
 footer {
-  /* padding-top: 30px; */
   padding-bottom: 20px;
   border-top: 1px solid #ebebeb;
   padding-top: 9px;
   margin: 0 auto;
   width: 1200px;
-  /* vertical-align: middle; */
   text-align: center;
   font-size: 11px;
-  vertical-align: baseline;
 }
