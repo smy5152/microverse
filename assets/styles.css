@@ -295,4 +295,14 @@ nav {
   line-height: 16px;
 }
 .subscribe {
+  border-left: 1px solid rgb(226, 226, 226);
+  flex: 1 1 0%;
+  padding-left: 15px;
+}
+.subscribe-one {
+  margin: 0px;
+  padding: 0px;
+
+  margin-bottom: 5px;
+  white-space: nowrap;
 }
