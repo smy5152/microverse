@@ -47,6 +47,9 @@ header {
   letter-spacing: 0.7px;
   line-height: 19px;
 }
+.section-title a {
+  color: #000;
+}
 .header-right button {
   background-color: rgb(86, 123, 149);
   color: white;
