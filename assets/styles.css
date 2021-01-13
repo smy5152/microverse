@@ -192,11 +192,37 @@ figcaption span {
   font-size: 0.875rem;
   line-height: 1.125rem;
 }
-.css-1baulvz {
-  display: inline-block;
-  color: #000;
+.article-float {
+  width: 80%;
+  padding-top: 30px;
+  justify-content: center;
 }
-
+.article-float span,
+time {
+  width: 60%;
+  margin-left: 245px;
+}
+.big-band {
+  width: 60%;
+  margin-left: 245px;
+}
+.big-band p {
+  margin-bottom: 0.78125rem;
+  margin-top: 0;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  color: #333;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 footer {
   padding-bottom: 20px;
   border-top: 1px solid #ebebeb;
