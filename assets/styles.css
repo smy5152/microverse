@@ -208,6 +208,19 @@ time {
   width: 60%;
   padding-left: 400px;
 }
+.big-band button {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 40px;
+  width: 250px;
+  font-size: 15px;
+  font-weight: bold;
+  background: rgb(237, 242, 245);
+  border: 1px solid rgb(147, 171, 188);
+  border-radius: 3px;
+  margin: 10px auto;
+  color: rgb(50, 104, 145);
+  cursor: pointer;
+}
 .big-band p {
   margin-bottom: 0.78125rem;
   margin-top: 0;
