@@ -192,6 +192,10 @@ figcaption span {
   font-size: 0.875rem;
   line-height: 1.125rem;
 }
+.css-1baulvz {
+  display: inline-block;
+  color: #000;
+}
 
 footer {
   padding-bottom: 20px;
