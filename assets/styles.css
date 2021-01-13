@@ -49,6 +49,7 @@ header {
 }
 .header-right button {
   background-color: rgb(86, 123, 149);
+  border: rgb(50, 104, 145);
   color: white;
   transition: all 0.6s ease 0s;
   width: max-content;
@@ -89,7 +90,7 @@ header {
   border-top: 1px solid #ebebeb;
   display: flex;
   /* flex-direction: row; */
-  width: calc(100% - 100px);
+  width: 600px;
   margin: 0 20px 20px;
   /* align-items: center; */
   /* max-width: 600px; */
@@ -104,7 +105,7 @@ header {
   align-items: center;
 }
 .socialIcons {
-  margin-left: 350px;
+  /* margin-left: 350px; */
 }
 .socialIcons svg {
   background-color: #eee;
@@ -155,13 +156,11 @@ header {
   width: 0px;
 }
 .comment-box {
-  /* -webkit-box-align: center; */
   align-items: center;
   background: transparent;
   border: 1px solid rgb(102, 102, 102);
   border-radius: 4px;
   display: flex;
-  /* -webkit-box-pack: center; */
   justify-content: center;
   min-width: 26px;
   min-height: 14px;
