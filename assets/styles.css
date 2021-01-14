@@ -1,9 +1,11 @@
 body {
   margin: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 header {
   height: 36px;
   width: 100%;
@@ -13,9 +15,29 @@ header {
   z-index: 10;
   display: flex;
   padding: 5px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   cursor: pointer;
 }
+
+iframe {
+  padding-top: 40px;
+}
+
+footer {
+  padding-bottom: 20px;
+  border-top: 1px solid #ebebeb;
+  padding-top: 9px;
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+  font-size: 11px;
+}
+footer a {
+  padding-inline-start: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
 .container {
   width: 100%;
   padding-top: 5px;
@@ -23,6 +45,7 @@ header {
   display: flex;
   vertical-align: baseline;
 }
+
 .header-left {
   float: left;
   display: flex;
@@ -30,15 +53,18 @@ header {
   padding: 5px;
   justify-content: space-evenly;
 }
+
 .quick-fix {
   font-weight: 700;
   margin-top: 20px;
   padding: 5px;
 }
+
 .svg-icon {
   height: 20px;
   width: 20px;
 }
+
 .section-title {
   width: max-content;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -48,9 +74,11 @@ header {
   letter-spacing: 0.7px;
   line-height: 19px;
 }
+
 .section-title a {
   color: #000;
 }
+
 .header-right button {
   background-color: rgb(86, 123, 149);
   border: rgb(50, 104, 145);
@@ -62,13 +90,16 @@ header {
   display: block;
   cursor: pointer;
 }
+
 .header-right a {
   text-decoration: none;
   color: white;
 }
+
 .hide-dummy {
   display: none;
 }
+
 .header-right {
   float: left;
   display: flex;
@@ -77,9 +108,11 @@ header {
   flex: 0.2;
   justify-content: space-evenly;
 }
+
 .site-logo {
   margin: 0 auto;
 }
+
 .articleBody {
   display: flex;
   padding-top: 50px;
@@ -87,6 +120,7 @@ header {
   flex-direction: column;
   align-items: center;
 }
+
 .article-title {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-style: italic;
@@ -96,12 +130,14 @@ header {
   margin: 0 20px 20px;
   max-width: 600px;
 }
+
 .socialToolBar {
   border-top: 1px solid #ebebeb;
   display: flex;
   width: 600px;
   margin: 0 20px 20px;
 }
+
 .socialToolBar a {
   line-height: 65px;
   padding: 0 5px;
@@ -110,6 +146,7 @@ header {
   align-items: center;
   cursor: pointer;
 }
+
 .socialIcons svg {
   background-color: #eee;
   border: 1px #eee solid;
@@ -120,6 +157,7 @@ header {
   width: 15px;
   height: 15px;
 }
+
 .bookmark_comment {
   display: flex;
   border-radius: 100%;
@@ -127,6 +165,7 @@ header {
   width: 15px;
   height: 15px;
 }
+
 .bookmark_comment a i::before {
   border-color: rgb(102, 102, 102) transparent;
   border-style: solid;
@@ -138,10 +177,12 @@ header {
   position: absolute;
   width: 0;
 }
+
 .bookmark_comment a i {
   height: 15px;
   margin-top: 12px;
 }
+
 .bookmark_comment a i::after {
   border-color: rgb(255, 255, 255) transparent;
   border-style: solid;
@@ -153,6 +194,7 @@ header {
   position: absolute;
   width: 0;
 }
+
 .comment-box {
   align-items: center;
   background: transparent;
@@ -166,9 +208,11 @@ header {
   position: relative;
   width: auto;
 }
+
 .hero-figure {
   width: 90%;
 }
+
 .hero-figure img {
   width: 80%;
   padding-left: 150px;
@@ -186,6 +230,7 @@ figcaption span {
   font-size: 0.875rem;
   line-height: 1.125rem;
 }
+
 .telescope {
   width: 100%;
   margin-right: 7px;
@@ -194,6 +239,7 @@ figcaption span {
   font-size: 0.875rem;
   line-height: 1.125rem;
 }
+
 .big-band p {
   margin-bottom: 0.78125rem;
   margin-top: 0;
@@ -218,13 +264,13 @@ figcaption span {
   justify-content: center;
   margin-left: 160px;
 }
+
 .side-p {
   margin-bottom: 0.78125rem;
   margin-top: 0;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 1.125rem;
   line-height: 1.5625rem;
-
   width: calc(100% - 40px);
   max-width: 600px;
   color: #333;
@@ -234,15 +280,18 @@ figcaption span {
   margin-inline-start: 0;
   margin-inline-end: 0;
 }
+
 .editor-pick {
   width: 200px;
   height: 350px;
   margin-top: 200px;
 }
+
 .editor-pick aside {
   width: 200px;
   margin-left: 150px;
 }
+
 .editor-article {
   display: flex;
 }
@@ -276,34 +325,18 @@ figcaption span {
   margin-left: 150px;
   width: 80%;
 }
+
 .inflation h3 {
   color: #000;
 }
 
-iframe {
-  padding-top: 40px;
-}
-
-footer {
-  padding-bottom: 20px;
-  border-top: 1px solid #ebebeb;
-  padding-top: 9px;
-  margin: 0 auto;
-  width: 1200px;
-  text-align: center;
-  font-size: 11px;
-}
-footer a {
-  padding-inline-start: 20px;
-  text-decoration: none;
-  color: #333;
-}
 .credits {
   color: #888;
   letter-spacing: 0.01em;
   font-size: 0.8125rem;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
+
 .big-band {
   width: 600px;
   margin: 0 auto;
@@ -318,6 +351,7 @@ nav {
   content: "";
   display: block;
 }
+
 .nav-header {
   display: flex;
   flex-flow: row;
@@ -326,6 +360,7 @@ nav {
   border-top: 1px solid #e2e2e2;
   margin-top: -8px;
 }
+
 .go-to-home {
   margin: 18px 0 0 auto;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -334,10 +369,12 @@ nav {
   font-weight: 400;
   line-height: 11px;
 }
+
 .go-to-home a {
   color: rgb(86, 123, 149);
   text-decoration: none;
 }
+
 .nav-sections {
   display: flex;
   flex-flow: row;
@@ -347,9 +384,11 @@ nav {
   margin: 0 auto;
   margin-bottom: 150px;
 }
+
 .nav-section-column {
   width: 20%;
 }
+
 .nav-section-column h3 {
   color: rgb(51, 51, 51);
   font-size: 13px;
@@ -361,12 +400,36 @@ nav {
   text-transform: uppercase;
   width: 150px;
 }
+
 .nav-section-column ul {
   list-style: none;
   margin: 0;
   padding: 0;
   font: inherit;
 }
+
+.subscribe-two a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 11px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 21px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.end-article-links a {
+  width: calc(100% - 40px);
+  max-width: 600px;
+  margin: 0 auto 1em;
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+}
+
 .nav-section-column li a {
   list-style: none;
   margin: 0;
@@ -382,6 +445,7 @@ nav {
   height: 23px;
   line-height: 16px;
 }
+
 .subscribe {
   border-left: 1px solid rgb(226, 226, 226);
   text-decoration: none;
@@ -401,6 +465,7 @@ nav {
   margin-right: 2px;
   vertical-align: middle;
 }
+
 .subscribe-two {
   margin: 0;
   padding: 0;
@@ -408,47 +473,31 @@ nav {
   white-space: nowrap;
   font-size: 11px;
 }
-.subscribe-two a {
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  text-decoration: none;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 11px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 21px;
-  cursor: pointer;
-  text-decoration: underline;
-}
+
 .subscribe-three {
   list-style: none;
   margin: 2px 0 0;
   padding: 10px 0 0;
   border-top: 1px solid rgb(226, 226, 226);
 }
+
 .end-article-block {
   width: 600px;
   margin: 0 auto;
 }
+
 .end-article-text {
   font-size: 0.75rem;
   width: calc(100% - 60px);
   max-width: 600px;
   color: rgb(102, 102, 102);
 }
-.end-article-links a {
-  width: calc(100% - 40px);
-  max-width: 600px;
-  margin: 0 auto 1em;
-  color: rgb(102, 102, 102);
-  text-decoration: underline;
-}
+
 .end-article-button {
   display: flex;
   margin: 1.5rem auto 2rem;
 }
+
 .end-article-button button {
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
@@ -479,26 +528,31 @@ nav {
   width: 72px;
   margin: 18px auto 0;
 }
+
 .bottom-border {
   border-bottom: 1px solid rgb(204, 204, 204);
   width: 72px;
   margin: 18px auto 0;
 }
+
 .byline-prefix {
   font-weight: 700;
   text-decoration: underline;
 }
+
 .byline-title {
   font-size: 1.25rem;
   line-height: 1.875rem;
   font-weight: 700;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
+
 .interactive-section {
   content: "";
   width: 1000px;
   margin: 0 auto;
 }
+
 .interactive-title {
   margin-bottom: 2px;
   font-size: 1.2rem;
@@ -506,6 +560,7 @@ nav {
   font-style: normal;
   font-family: nyt-cheltenham, georgia, times new roman, times, serif;
 }
+
 .interactive-meta {
   font-size: 14px;
   font-weight: 400;
@@ -518,6 +573,7 @@ nav {
 .ai-img {
   z-index: 2;
 }
+
 .table-one-description {
   width: 22%;
   padding: 3px;
@@ -525,20 +581,23 @@ nav {
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
   letter-spacing: 1px;
 }
+
 .interactive-table-text-title {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.05em;
 }
+
 .interactive-table-text-one {
   margin-top: -650px;
   z-index: 5;
   display: flex;
   flex-direction: row;
 }
+
 .interactive-table-text-two {
   margin-top: 240px;
   z-index: 5;
@@ -576,6 +635,7 @@ nav {
   flex-direction: row;
   padding-bottom: 20px;
 }
+
 .suggestions-title {
   border-top: 2px solid rgb(0, 0, 0);
   width: 75%;
@@ -585,6 +645,7 @@ nav {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .suggestion-text {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
@@ -592,6 +653,7 @@ nav {
   line-height: 1.3125rem;
   width: 80%;
 }
+
 .dont-show-text {
   text-align: right;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -602,6 +664,7 @@ nav {
   background: rgb(255, 255, 255);
   cursor: pointer;
 }
+
 .popular-title {
   border-top: 2px solid rgb(0, 0, 0);
   width: 25%;
@@ -613,11 +676,13 @@ nav {
   padding-top: 20px;
   border-bottom: 1px solid rgb(226, 226, 226);
 }
+
 .suggestions {
   /* width: 80%; */
   display: flex;
   flex-direction: row;
 }
+
 .suggestions-columns {
   width: 30%;
   margin-left: 10px;
@@ -627,10 +692,6 @@ nav {
   border: 1px solid rgb(68, 67, 67);
   height: 250px;
   justify-content: space-between;
-}
-.popular {
-  /* width: 25%; */
-  /* margin-left: 10px; */
 }
 
 .popular-items {
@@ -644,19 +705,21 @@ nav {
   color: rgb(18, 18, 18);
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
+
 .suggestions-one-box {
   display: flex;
   flex-direction: column;
   padding: 5px;
-
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.9375rem;
   line-height: 1.125rem;
   letter-spacing: 0.2px;
 }
+
 .sgtn-img {
   float: left;
 }
+
 .plus-svg {
   float: right;
 }
@@ -667,6 +730,7 @@ nav {
   width: 97%;
   border-top: 2px solid rgb(0, 0, 0);
 }
+
 .css-tadcwa {
   margin-top: 20px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -674,6 +738,7 @@ nav {
   font-size: 1rem;
   line-height: 1.25rem;
 }
+
 .css-y3qb10 {
   margin: 0;
 }
@@ -682,6 +747,7 @@ nav {
   margin-top: 20px;
   font-size: small;
 }
+
 .spacer {
   margin-top: 100px;
   margin-bottom: 100px;
