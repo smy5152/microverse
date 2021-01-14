@@ -59,12 +59,10 @@ header {
 .header-right {
   float: left;
   display: flex;
-  /* padding: 5px; */
   margin-right: 5px;
   width: max-content;
   flex: 0.2;
   justify-content: space-evenly;
-  /* align-items: center; */
 }
 .site-logo {
   margin: 0 auto;
@@ -88,24 +86,16 @@ header {
 .socialToolBar {
   border-top: 1px solid #ebebeb;
   display: flex;
-  /* flex-direction: row; */
   width: 600px;
   margin: 0 20px 20px;
-  /* align-items: center; */
-  /* max-width: 600px; */
 }
 .socialToolBar a {
   line-height: 65px;
   padding: 0 5px;
-  /* color: white; */
   display: inline;
   float: left;
-  /* transition: all 0.5s; */
   align-items: center;
   cursor: pointer;
-}
-.socialIcons {
-  /* margin-left: 350px; */
 }
 .socialIcons svg {
   background-color: #eee;
@@ -116,11 +106,6 @@ header {
   padding: 5px;
   width: 15px;
   height: 15px;
-  /* width: 15px; */
-  /* height: 15px; */
-  /* max-width: fit-content; */
-  /* justify-self: center;
-  text-align: center; */
 }
 .bookmark_comment {
   display: flex;
@@ -138,7 +123,7 @@ header {
   display: block;
   left: 15px;
   position: absolute;
-  width: 0px;
+  width: 0;
 }
 .bookmark_comment a i {
   height: 15px;
@@ -147,13 +132,13 @@ header {
 .bookmark_comment a i::after {
   border-color: rgb(255, 255, 255) transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 6px;
+  border-width: 6px 0 0 6px;
   bottom: -6px;
   content: "";
   display: block;
   left: 16px;
   position: absolute;
-  width: 0px;
+  width: 0;
 }
 .comment-box {
   align-items: center;
@@ -203,8 +188,8 @@ figcaption span {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 footer {
   padding-bottom: 20px;
@@ -246,7 +231,7 @@ nav {
   height: 45px;
 }
 .go-to-home {
-  margin: 18px 0px 0px auto;
+  margin: 18px 0 0 auto;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
   font-style: normal;
@@ -275,20 +260,20 @@ nav {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
-  margin: 0px;
+  margin: 0;
   text-transform: uppercase;
   width: 150px;
 }
 .nav-section-column ul {
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font: inherit;
 }
 .nav-section-column li a {
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   color: rgb(0, 0, 0);
   display: inline-block;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -305,8 +290,8 @@ nav {
   padding-left: 15px;
 }
 .subscribe-one {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-bottom: 5px;
   white-space: nowrap;
 }
@@ -320,7 +305,7 @@ nav {
   font-weight: 700;
   height: 25px;
   line-height: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .subscribe-one svg {
@@ -331,8 +316,8 @@ nav {
   vertical-align: middle;
 }
 .subscribe-two {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-bottom: 5px;
   white-space: nowrap;
   font-size: 11px;
@@ -353,8 +338,8 @@ nav {
 }
 .subscribe-three {
   list-style: none;
-  margin: 2px 0px 0px;
-  padding: 10px 0px 0px;
+  margin: 2px 0 0;
+  padding: 10px 0 0;
   border-top: 1px solid rgb(226, 226, 226);
 }
 .end-article-block {
@@ -370,7 +355,7 @@ nav {
 .end-article-links a {
   width: calc(100% - 40px);
   max-width: 600px;
-  margin: 0px auto 1em;
+  margin: 0 auto 1em;
   color: rgb(102, 102, 102);
   text-decoration: underline;
 }
@@ -391,7 +376,7 @@ nav {
   line-height: 1.5rem;
   margin-left: 0;
   margin-right: 50px;
-  padding: 5px 0px;
+  padding: 5px 0;
   text-transform: uppercase;
   transition: background-color 0.6s ease 0s;
   width: 60%;
@@ -406,10 +391,10 @@ nav {
 .top-border {
   border-top: 1px solid rgb(204, 204, 204);
   width: 72px;
-  margin: 18px auto 0px;
+  margin: 18px auto 0;
 }
 .bottom-border {
   border-bottom: 1px solid rgb(204, 204, 204);
   width: 72px;
-  margin: 18px auto 0px;
+  margin: 18px auto 0;
 }
