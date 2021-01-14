@@ -5,7 +5,7 @@ a {
   text-decoration: none;
 }
 header {
-  height: 30px;
+  height: 36px;
   width: 100%;
   background-color: whitesmoke;
   position: fixed;
@@ -26,8 +26,14 @@ header {
 .header-left {
   float: left;
   display: flex;
-  flex: 0.2;
+  flex: 0.25;
+  padding: 5px;
   justify-content: space-evenly;
+}
+.quick-fix {
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 5px;
 }
 .svg-icon {
   height: 20px;
@@ -50,7 +56,8 @@ header {
   border: rgb(50, 104, 145);
   color: white;
   transition: all 0.6s ease 0s;
-  width: max-content;
+  width: 100px;
+  height: 30px;
   float: left;
   display: block;
   cursor: pointer;
@@ -187,9 +194,9 @@ figcaption span {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 1.125rem;
   line-height: 1.5625rem;
-  /* margin-left: 20px; */
-  /* margin-right: 20px; */
-  /* width: calc(100% - 40px); */
+  margin-left: 20px;
+  margin-right: 20px;
+  width: calc(100% - 40px);
   max-width: 600px;
   color: #333;
   display: block;
@@ -218,8 +225,8 @@ figcaption span {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 .editor-pick {
   width: 200px;
@@ -295,6 +302,7 @@ footer a {
 }
 nav {
   margin: 0 auto;
+  margin-top: 150px;
   width: 1200px;
   padding-bottom: 20px;
   padding-top: 9px;
@@ -329,6 +337,7 @@ nav {
   color: #333;
   width: 1200px;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 .nav-section-column {
   width: 20%;
@@ -597,20 +606,23 @@ nav {
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 .suggestions {
-  width: 75%;
-  margin-left: 10px;
+  /* width: 80%; */
   display: flex;
   flex-direction: row;
-  margin-right: 10px;
 }
 .suggestions-columns {
   width: 30%;
   margin-left: 10px;
   margin-right: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid rgb(68, 67, 67);
+  height: 250px;
+  justify-content: space-between;
 }
 .popular {
-  width: 25%;
-  margin-left: 10px;
+  /* width: 25%; */
+  /* margin-left: 10px; */
 }
 
 .popular-items {
@@ -623,4 +635,46 @@ nav {
   letter-spacing: 0.9px;
   color: rgb(18, 18, 18);
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+.suggestions-one-box {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.2px;
+}
+.sgtn-img {
+  float: left;
+}
+.plus-svg {
+  float: right;
+}
+
+.row-one {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: 97%;
+  border-top: 2px solid rgb(0, 0, 0);
+}
+.css-tadcwa {
+  margin-top: 20px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+.css-y3qb10 {
+  margin: 0;
+}
+
+.fig-caption {
+  margin-top: 20px;
+  font-size: small;
+}
+.spacer {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
