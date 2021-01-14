@@ -49,11 +49,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/smymisr)
 - LinkedIn: [LinkedIn](https://linkedin.com/shabbirmyamani)
 
-👤 **Author2**
+👤 **Chukwuma**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/ccobasi)
+- Twitter: [@twitterhandle](https://twitter.com/@oobasichux)
+- LinkedIn: [LinkedIn](https://linkedin.com/chukwuma-obasi-532b84188)
 
 ## 🤝 Contributing
 
