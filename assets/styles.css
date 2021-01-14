@@ -173,6 +173,14 @@ figcaption span {
   font-size: 0.875rem;
   line-height: 1.125rem;
 }
+.telescope{
+  width: 100%;
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
 .big-band p {
   margin-bottom: 0.78125rem;
   margin-top: 0;
@@ -254,6 +262,10 @@ figcaption span {
   color: #000;
   
 }
+iframe{
+  padding-top: 40px;
+}
+
 footer {
   padding-bottom: 20px;
   border-top: 1px solid #ebebeb;
