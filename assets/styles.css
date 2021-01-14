@@ -253,6 +253,11 @@ figcaption span {
   line-height: 1.125rem;
 }
 
+.ai-image {
+  width: 550px;
+  height: 319px;
+}
+
 .theory {
   margin: 0 auto;
   width: 600px;
