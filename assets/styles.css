@@ -173,16 +173,23 @@ figcaption span {
   font-size: 0.875rem;
   line-height: 1.125rem;
 }
-
+.telescope {
+  width: 100%;
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
 .big-band p {
   margin-bottom: 0.78125rem;
   margin-top: 0;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 1.125rem;
   line-height: 1.5625rem;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: calc(100% - 40px);
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  /* width: calc(100% - 40px); */
   max-width: 600px;
   color: #333;
   display: block;
@@ -191,6 +198,77 @@ figcaption span {
   margin-inline-start: 0;
   margin-inline-end: 0;
 }
+
+.big-band-side {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-left: 160px;
+}
+.side-p {
+  margin-bottom: 0.78125rem;
+  margin-top: 0;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+
+  width: calc(100% - 40px);
+  max-width: 600px;
+  color: #333;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.editor-pick {
+  width: 200px;
+  height: 350px;
+  margin-top: 200px;
+}
+.editor-pick aside {
+  width: 200px;
+  margin-left: 150px;
+}
+.editor-article {
+  display: flex;
+}
+
+.editor-article h3 {
+  font-size: 12px;
+}
+
+.img-title img {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.img-title h3 {
+  font-size: 10px;
+}
+
+.aside-float {
+  float: left;
+}
+
+.inflation {
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-left: 150px;
+  width: 80%;
+}
+.inflation h3 {
+  color: #000;
+}
+
+iframe {
+  padding-top: 40px;
+}
+
 footer {
   padding-bottom: 20px;
   border-top: 1px solid #ebebeb;
@@ -289,17 +367,6 @@ nav {
 }
 .subscribe {
   border-left: 1px solid rgb(226, 226, 226);
-  padding-left: 15px;
-}
-.subscribe-one {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 5px;
-  white-space: nowrap;
-}
-.subscribe-one a {
-  color: rgb(0, 0, 0);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-decoration: none;
   text-transform: capitalize;
   width: 150px;
