@@ -253,6 +253,11 @@ figcaption span {
   line-height: 1.125rem;
 }
 
+.theory {
+  margin: 0 auto;
+  width: 600px;
+}
+
 .big-band p {
   margin-bottom: 0.78125rem;
   margin-top: 0;

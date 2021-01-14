@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name: Microverse Times - Article Page
+# Project Name: The New York Times - Article Page
 
 ## Week 1 Collaborative Project
 
@@ -9,6 +9,7 @@
 - Version Control & CSS
 - Introduction to HTML & CSS concepts.
 - Position, Flex, Floats
+- Embeds and image manipulating
 
 ![screenshot](./app_screenshot.png)
 
