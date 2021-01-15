@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/subscribe-form.css" />
     <title>The New York Times</title>
   </head>
   <body>
@@ -40,6 +41,9 @@
           </svg>
         </div>
         <div class="header-right">
+          <div class="newsletter">
+            <a href="#subscribe-form">NEWSLETTER</a>
+          </div>
           <div class="subscribe-btn btn">
             <button type="button">SUBSCRIBE</button>
           </div>
@@ -49,6 +53,67 @@
         </div>
       </div>
     </header>
+
+    <!-- NEWSLETTER FORM - POPUP -->
+    <div id="subscribe-form" class="subscribe-form">
+      <div class="opt-in-box">
+        <a class="close" href="#">&times;</a>
+        <form action="" class="form-fields" method="GET">
+          <h2>Sign up for daily News</h2>
+          <fieldset class="about-you">
+            <legend>About You</legend>
+            <label for="username">Name</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Full Name"
+              size="20"
+              autofocus
+              required
+            />
+            <br /><br />
+            <label for="email">E-mail</label>
+            <input
+              class=""
+              type="email"
+              name="email"
+              id="email"
+              placeholder="john@doe.com"
+              autofocus
+              required
+            />
+            <br /><br />
+            <label for="comment">Comment</label>
+            <input
+              type="textarea"
+              name="comment"
+              id="comment"
+              placeholder="Type your comment here..."
+              maxlength="250"
+              autofocus
+            />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Opinion</legend>
+            <label>What is your overall opinion about this article?</label>
+            <br />
+            <input type="radio" name="opinion" id="1" />positive
+            <br />
+            <input type="radio" name="opinion" id="2" />negative
+            <br />
+            <input type="radio" name="opinion" id="3" />neutral
+          </fieldset>
+          <br />
+          <input type="checkbox" id="myCheck" onclick="" />
+          &nbsp;<span>I want to subscribe to the newsletter</span>
+          <br />
+          <br />
+          <input type="submit" label="SEND" />
+        </form>
+      </div>
+    </div>
 
     <!-- MAIN ARTICLE SECTION - BEGINS -->
     <main class="container">
