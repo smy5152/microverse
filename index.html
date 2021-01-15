@@ -58,7 +58,7 @@
     <div id="subscribe-form" class="subscribe-form">
       <div class="opt-in-box">
         <a class="close" href="#">&times;</a>
-        <form action="" class="form-fields" method="GET">
+        <form action="#" class="form-fields" method="GET">
           <h2>Sign up for daily News</h2>
           <fieldset class="about-you">
             <legend>About You</legend>
@@ -75,24 +75,17 @@
             <br /><br />
             <label for="email">E-mail</label>
             <input
-              class=""
               type="email"
               name="email"
               id="email"
               placeholder="john@doe.com"
-              autofocus
               required
             />
             <br /><br />
             <label for="comment">Comment</label>
-            <input
-              type="textarea"
-              name="comment"
-              id="comment"
-              placeholder="Type your comment here..."
-              maxlength="250"
-              autofocus
-            />
+            <textarea name="comment" id="comment">
+Type your comment here... </textarea
+            >
           </fieldset>
           <br />
           <fieldset>
@@ -110,7 +103,7 @@
           &nbsp;<span>I want to subscribe to the newsletter</span>
           <br />
           <br />
-          <input type="submit" label="SEND" />
+          <input type="submit" />
         </form>
       </div>
     </div>
