@@ -1,0 +1,83 @@
+fieldset {
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  font-weight: 500;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+.header-right a {
+  text-decoration: none;
+  background-color: rgb(90, 0, 0);
+  border: rgb(134, 0, 0);
+  color: white;
+  transition: all 0.6s ease 0s;
+  width: 120px;
+  height: 30px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.about-you input {
+  top: 100px;
+  left: 100px;
+}
+
+.subscribe-form {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  font-family: nyt-franklin, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subscribe-form:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.newsletter {
+  margin-top: 5px;
+  vertical-align: center;
+}
+
+.opt-in-box {
+  top: 100px;
+  right: 50px;
+  float: right;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.opt-in-box h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.opt-in-box .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
