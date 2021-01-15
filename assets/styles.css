@@ -765,3 +765,15 @@ figcaption span {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+.suggestions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  padding-right: 10px;
+}
+
+.suggestions-columns-one {
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
