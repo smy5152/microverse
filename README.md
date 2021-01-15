@@ -1,16 +1,31 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name: Microverse Times - Article Page
+# Project Name: The New York Times - Article Page
 
 ## Week 1 Collaborative Project
+
+Coding is an amazing experience & the more time I spent with the code I found myself addicted to not leaving it incomplete.
+
+I was not at all confident about the linters, that was a first-time experience and I successfully managed to clear all errors.
+
+Skills Revived & Learned:
+
+- Versioning & best practices of maintaining branches of safe deployed and local dev
+- git flow & Github flow
+- HTML, CSS new and better elements, semantics, features etc
+- Cloning - the hard work and skills needed to successfully make a clone.
+- Linter - install & fix tests {still not managed to get styleint to run on VSC locally}
+- Collaborative learning, being patient, helping each other succeed.
+- Attending Daily standup, being focused, accountable.
 
 > Learning Goals:
 
 - Version Control & CSS
 - Introduction to HTML & CSS concepts.
 - Position, Flex, Floats
+- Embeds and image manipulating
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/The-New-York-Times.png)
 
 ## Built With
 
@@ -20,26 +35,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](https://smy5152.github.io/microverse/)
 
 ## Authors
 
@@ -49,11 +45,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/smymisr)
 - LinkedIn: [LinkedIn](https://linkedin.com/shabbirmyamani)
 
-👤 **Author2**
+👤 **Chukwuma**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/ccobasi)
+- Twitter: [@twitterhandle](https://twitter.com/@oobasichux)
+- LinkedIn: [LinkedIn](https://linkedin.com/chukwuma-obasi-532b84188)
 
 ## 🤝 Contributing
 
@@ -73,4 +69,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://mit-license.org/) licensed.
