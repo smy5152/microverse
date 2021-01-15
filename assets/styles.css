@@ -1,4 +1,9 @@
-body {
+html {
+  overflow-x: hidden;
+}
+
+body,
+.css-y3qb10 {
   margin: 0;
 }
 
@@ -691,7 +696,6 @@ figcaption span {
 }
 
 .suggestions {
-  /* width: 80%; */
   display: flex;
   flex-direction: row;
 }
@@ -750,10 +754,6 @@ figcaption span {
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.25rem;
-}
-
-.css-y3qb10 {
-  margin: 0;
 }
 
 .fig-caption {
