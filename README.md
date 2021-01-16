@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![https://img.shields.io/badge/Microverse-blueviolet](http://bit.ly/fullstackdev-free)
 
 # Project Name: The New York Times - Article Page
 
